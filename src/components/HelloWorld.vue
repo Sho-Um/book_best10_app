@@ -8,7 +8,7 @@
         第１位
         </button>
         <transition name="slide-fade">
-          <p v-if="flg1" class="trans">嫌われる勇気</p>
+          <p v-if="flg1" class="trans">幸せになる勇気</p>
         </transition>
         <button class="btn btn-primary mb-3"
           v-on:click="doAction2">
@@ -22,42 +22,42 @@
         第３位
         </button>
         <transition name="slide-fade">
-          <p v-if="flg3" class="trans">嫌われる勇気</p>
+          <p v-if="flg3" class="trans">FULL POWER</p>
         </transition>
         <button class="btn btn-primary mb-3"
           v-on:click="doAction4">
         第４位
         </button>
         <transition name="slide-fade">
-          <p v-if="flg4" class="trans">ブループリント</p>
+          <p v-if="flg4" class="trans">利己的な遺伝子</p>
         </transition>
         <button class="btn btn-primary mb-3"
           v-on:click="doAction5">
         第５位
         </button>
         <transition name="slide-fade">
-          <p v-if="flg5" class="trans">嫌われる勇気</p>
+          <p v-if="flg5" class="trans">影響力の武器</p>
         </transition>
         <button class="btn btn-primary mb-3"
           v-on:click="doAction6">
         第６位
         </button>
         <transition name="slide-fade">
-          <p v-if="flg6" class="trans">ブループリント</p>
+          <p v-if="flg6" class="trans">進化心理学から考えるホモサピエンス</p>
         </transition>
         <button class="btn btn-primary mb-3"
           v-on:click="doAction7">
         第７位
         </button>
         <transition name="slide-fade">
-          <p v-if="flg7" class="trans">嫌われる勇気</p>
+          <p v-if="flg7" class="trans">ファスト＆スロー</p>
         </transition>
         <button class="btn btn-primary mb-3"
           v-on:click="doAction8">
         第８位
         </button>
         <transition name="slide-fade">
-          <p v-if="flg8" class="trans">ブループリント</p>
+          <p v-if="flg8" class="trans">21世紀の啓蒙</p>
         </transition>
         <button class="btn btn-primary mb-3"
           v-on:click="doAction9">
@@ -71,7 +71,7 @@
         第10位
         </button>
         <transition name="slide-fade">
-          <p v-if="flg10" class="trans">ブループリント</p>
+          <p v-if="flg10" class="trans">複利で伸びる１つの習慣</p>
         </transition>
       </div>
   </div>
